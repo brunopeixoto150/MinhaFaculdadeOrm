@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Minha Faculdade</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Configurações</string>
+
+    <!-- Nome Campos -->
+    <string name="nome">Nome</string>
+    <string name="professor">Professor</string>
+    <string name="ementa">Ementa</string>
+    <string name="ano">Ano</string>
+    <string name="semestre">Semestre</string>
+    <string name="prova_1">Prova 1</string>
+    <string name="prova_2">Prova 2</string>
+    <string name="status">Status</string>
+    <string name="data_prova1">Data prova 1</string>
+    <string name="data_prova2">Data prova 2</string>
+    <string name="data">dd/mm/aaaa</string>
+    <string name="tipo_data">dd/MM/yyyy</string>
+    <string name="nome_usuario">Nome usuario</string>
+    <string name="curso">Curso</string>
+    <string name="faculdade">Faculdade</string>
+    <string name="disciplina">Disciplina</string>
+    <string name="data_prova">Data</string>
+
+
+    <!-- Visualização Disciplina -->
+    <string name="visualizacao_disciplina">Visualização Disciplina</string>
+    <string name="nome_">Nome: </string>
+    <string name="professor_">Professor: </string>
+    <string name="ementa_">Ementa: </string>
+    <string name="ano_">Ano/Semestre: </string>
+    <string name="prova_1_">Prova 1: </string>
+    <string name="prova_2_">Prova 2: </string>
+    <string name="media_">Media: </string>
+    <string name="falta_registrar_nota">Falta nota!</string>
+
+    <!-- Botões -->
+    <string name="editar">Editar</string>
+    <string name="voltar">Voltar</string>
+    <string name="excluir">Excluir</string>
+    <string name="sair">Sair</string>
+    <string name="salvar">Salvar</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="btn_cadastrar_disciplina">Cadastrar Disciplina</string>
+    <string name="btn_menu_disciplinas">Menu Disciplinas</string>
+    <string name="btn_menu_provas">Menu Provas</string>
+    <string name="btn_menu_configuracoes">Configurações</string>
+    <string name="lembretes">Lembretes proximas provas</string>
+
+
+
+    <!-- Mensagens -->
+    <string name="campo_nome_vazio">Infome o nome, ano e periodo</string>
+    <string name="disciplina_ja_existe">Disciplina já existente</string>
+    <string name="sucesso_cadastro_disciplina">Disciplina cadastrada com sucesso!</string>
+    <string name="sucesso_salvar_configuracoes">Configurações salvas com sucesso!</string>
+    <string name="sucesso_editar_disciplina">Disciplina atualizada com sucesso!</string>
+    <string name="sucesso_excluir_disciplina">Disciplina excluida com sucesso!</string>
+    <string name="erro_editar_disciplina">Erro ao atualizar a disciplina!</string>
+    <string name="erro_excluir_disciplina">Erro ao excluir a disciplina!</string>
+    <string name="erro_cadastro_prova">Erro ao cadastrada a prova!</string>
+    <string name="erro_cadastro_disciplina">Erro ao cadastar a disciplina!</string>
+    <string name="erro_salvar_configuracoes">Erro ao salvar as configurações!</string>
+    <string name="nota_prova1_invalida">Nota da prova 1 invalida</string>
+    <string name="nota_prova2_invalida">Nota da prova 2 invalida</string>
+    <string name="em_desenvolvimento">Em desenvolvimento ;-)</string>
+    <string name="bem_vindo">Seja Bem vindo</string>
+
+    <!-- Faculdades -->
+    <string name="unicap">Unicap</string>
+    <string name="estacio">Estácio</string>
+
+</resources>

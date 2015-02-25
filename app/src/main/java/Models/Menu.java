@@ -1,0 +1,33 @@
+package Models;
+
+/**
+ * Created by Bruno on 26/01/2015.
+ */
+public class Menu {
+    private String nome;
+    private int id;
+
+    public Menu() {
+    }
+
+    public Menu(String nome, int id) {
+        this.nome = nome;
+        this.id = id;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+}

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:orientation="horizontal"
+    android:weightSum="1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="319dp">
+
+        <EditText
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:id="@+id/etProva2Dis"
+            android:hint="@string/prova_2"
+            android:layout_below="@+id/etProva1Dis"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_toLeftOf="@+id/etDataProva1Dis"
+            android:layout_toStartOf="@+id/etDataProva1Dis" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:maxLength="3"
+            android:id="@+id/etProva1Dis"
+            android:hint="@string/prova_1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/etEmentaDis"
+            android:layout_toLeftOf="@+id/etDataProva1Dis"
+            android:layout_toStartOf="@+id/etDataProva1Dis" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="date"
+            android:ems="10"
+            android:id="@+id/etDataProva1Dis"
+            android:hint="@string/data"
+            android:digits="1234567890/"
+            android:enabled="false"
+            android:layout_above="@+id/etDataProva2Dis"
+            android:layout_toLeftOf="@+id/btnDataProva1Dis"
+            android:layout_alignLeft="@+id/etDataProva2Dis"
+            android:layout_alignStart="@+id/etDataProva2Dis" />
+
+        <EditText
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:inputType="date"
+            android:hint="@string/data"
+            android:digits="1234567890/"
+            android:id="@+id/etDataProva2Dis"
+            android:enabled="false"
+
+            android:layout_alignTop="@+id/etProva2Dis"
+            android:layout_toLeftOf="@+id/btnDataProva2Dis"
+            android:layout_toStartOf="@+id/btnDataProva2Dis" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:id="@+id/btnDataProva1Dis"
+            android:layout_alignRight="@+id/etPeriodoDis"
+            android:layout_alignEnd="@+id/etPeriodoDis"
+            android:layout_above="@+id/btnDataProva2Dis"
+            android:layout_alignTop="@+id/etDataProva1Dis" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:id="@+id/btnDataProva2Dis"
+            android:layout_below="@+id/etDataProva1Dis"
+            android:layout_alignLeft="@+id/btnDataProva1Dis"
+            android:layout_alignStart="@+id/btnDataProva1Dis"
+            android:layout_alignBottom="@+id/etDataProva2Dis" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etNomeDis"
+            android:layout_gravity="center_horizontal"
+            android:hint="@string/nome"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etProfessorDis"
+            android:layout_gravity="center_horizontal"
+            android:hint="@string/professor"
+            android:layout_below="@+id/etPeriodoDis"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etEmentaDis"
+            android:layout_gravity="center_horizontal"
+            android:hint="@string/ementa"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/etProfessorDis"
+            android:layout_alignParentLeft="true" />
+
+        <EditText
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:inputType="numberSigned"
+            android:maxLength="1"
+            android:id="@+id/etPeriodoDis"
+            android:hint="@string/semestre"
+            android:numeric="integer"
+            android:digits="12"
+            android:layout_below="@+id/etNomeDis"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/etAnoDis"
+            android:layout_weight="1"
+            android:maxLength="4"
+            android:numeric="integer"
+            android:inputType="numberSigned"
+            android:hint="@string/ano"
+            android:maxEms="2020"
+            android:layout_below="@+id/etNomeDis"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_toLeftOf="@+id/etPeriodoDis"
+            android:layout_toStartOf="@+id/etPeriodoDis" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cadastrar"
+            android:id="@+id/btnCadastrarDis"
+
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="70dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="250dp" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/voltar"
+            android:id="@+id/btnVoltarCadastroDis"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="250dp"
+            android:layout_marginStart="25dp"
+             />
+
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

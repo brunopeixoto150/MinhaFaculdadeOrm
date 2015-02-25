@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/etNomeUsuario"
+            android:hint="@string/nome_usuario"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/etCurso"
+            android:hint="@string/curso"
+            android:layout_below="@+id/etNomeUsuario"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <RadioGroup
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rgFaculdade"
+            android:weightSum="1"
+            android:layout_below="@+id/textView7"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <RadioButton
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/unicap"
+                android:id="@+id/rbUnicap"
+                android:layout_weight="0.12" />
+
+            <RadioButton
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/estacio"
+                android:id="@+id/rbEstacio" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/faculdade"
+            android:id="@+id/textView7"
+            android:layout_marginLeft="26dp"
+            android:layout_marginStart="26dp"
+            android:layout_below="@+id/etCurso"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/salvar"
+            android:id="@+id/btnSalvarConfiguracoes"
+            android:layout_below="@+id/rgFaculdade"
+            android:layout_toRightOf="@+id/textView7"
+            android:layout_toEndOf="@+id/textView7" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/voltar"
+            android:id="@+id/btnVoltarconfiguracoes"
+            android:layout_below="@+id/rgFaculdade"
+            android:layout_toRightOf="@+id/btnSalvarConfiguracoes"
+            android:layout_toEndOf="@+id/btnSalvarConfiguracoes" />
+    </RelativeLayout>
+</LinearLayout>
